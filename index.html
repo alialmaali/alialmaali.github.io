@@ -56,17 +56,19 @@
 
                         <li class="dropdown">
 
-                            <a title="Plots" href="plotting.html" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Plots <span class="caret"></span> </a>
+                            <a title="Plots" href="plots.html" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Plots <span class="caret"></span> </a>
 
                             <ul class="dropdown-menu" aria-labelledby="drop1">
 
-                                <li><a title="Max Temperature" href="MaxTemp.html">Max Temperature</a></li>
+                                <li><a title="Max Temperature" href="max_temperature.html">Max Temperature</a></li>
 
                                 <li><a title="Humidity" href="humidity.html">Humidity</a></li>
 
                                 <li><a title="Cloudiness" href="cloudiness.html">Cloudiness</a></li>
 
-                                <li><a title="Wind Speed" href="WindSpeed.html">Wind Speed</a></li>
+                                <li role="separator" class="divider"></li>
+
+                                <li><a title="Wind Speed" href="wind_speed.html">Wind Speed</a></li>
 
                             </ul>
 
@@ -80,7 +82,7 @@
 
                         <li id="fat-menu" class="dropdown">
 
-                            <a title="Data" href="cities.html" class="dropdown-toggle" id="drop3" role="button" aria-haspopup="true" aria-expanded="false"> Data </a>
+                            <a title="Data" href="data.html" class="dropdown-toggle" id="drop3" role="button" aria-haspopup="true" aria-expanded="false"> Data </a>
 
                         </li>
 
@@ -110,9 +112,9 @@
 
 			<article class="left" style="width: 100%;">
 
-				<a title="Tempurature" target="_blank" href="images/MaxTemp.png">
+				<a title="Tempurature Map" target="_blank" href="images/temperaturemap.png">
 
-					<img src="images/MaxTemp.png" alt="Tempurature">
+					<img src="images/temperaturemap.png" alt="Tempurature Map">
 
 				</a>
 
@@ -121,6 +123,54 @@
 
 
 				<div class="details">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</div>
+
+
+
+				<div class="details">This project is a homework asigned from UC Berkeley Extension Bootcamp that allow us to discover the beuty of html and css with java script using ajax
+
+				I used in this project the folowing:
+
+				<ul>
+
+					<li><b>bootstrap CSS v3.3.7</b></li>
+
+					<li><b>bootstrap JS v3.3.7</b></li>
+
+					<li><b>jquery v3.3.1</b></li>
+
+					<li><b>Customized style.css</b></li>
+
+				</ul>
+
+				You can see that the pages contine 3 componints inside the body:
+
+				<ol>
+
+					<li><b>Page Header:</b>
+
+					<br/>Contain the main links to home page and smart links with dropdown menu.
+
+					</li>
+
+
+
+					<li><b>Page Content:</b>
+
+					<br/>Contain the Details of the page you visit.
+
+					</li>
+
+
+
+					<li><b>Page Footer:</b>
+
+					<br/>Contain the Footer that should be in every page.
+
+					</li>
+
+
+
+				</ol>
 
 				</div>
 
@@ -134,31 +184,45 @@
 
 			<hr/>
 
-			<a title="Temperature" href="MaxTemp.html">
+			<a title="Temperature Map" href="max_temperature.html">
 
-				<img class="thumbnail" src="images/MaxTemp.png" alt="Tempurature">
-
-			</a>
-
-			<a title="Wind" href="WindSpeed.html">
-
-				<img class="thumbnail" src="images/WindSpeed.png" alt="Wind">
+				<img class="thumbnail" src="images/temperaturemap.png" alt="Tempurature Map">
 
 			</a>
 
-			<a title="Cloudy" href="cloudiness.html">
+			<a title="Wind Map" href="wind_speed.html">
 
-				<img class="thumbnail" src="images/cloudiness.png" alt="Cloudy">
+				<img class="thumbnail" src="images/windmap.png" alt="Wind Map">
 
 			</a>
 
-			<a title="Humidity" href="humidity.html">
+			<a title="Cloudy Map" href="cloudiness.html">
 
-				<img class="thumbnail" src="images/humidity.png" alt="Humidity">
+				<img class="thumbnail" src="images/cloudymap.png" alt="Cloudy Map">
+
+			</a>
+
+			<a title="Humidity Map" href="humidity.html">
+
+				<img class="thumbnail" src="images/humiditymap.png" alt="Humidity Map">
 
 			</a>
 
 		</div>
+
+    </div>
+
+    <div class="footer">
+
+    	<footer class="page-footer font-small blue pt-4">
+
+			<div class="footer-copyright text-center py-3"><gl-emoji title="copyright sign" data-name="copyright" data-unicode-version="1.1">©</gl-emoji> 2018 Copyright:
+
+				<a title="Designed By Khaled A. Karman" href="http://rawasy.com/" target="_blank"> Khaled A. Karman</a>
+
+			</div>
+
+        </footer>
 
     </div>
 
