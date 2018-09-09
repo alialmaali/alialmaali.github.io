@@ -42,7 +42,8 @@
 
 	background-color: WhiteSmoke  !important;
 
-	margin: 1px 8px;
+    margin: 0;
+    height: 100%;
 
 	padding: 10px;
 
