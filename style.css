@@ -82,7 +82,7 @@
 
 	float: left;
 
-	border: 1px solid gray;
+	border: 1px solid LightGray ;
 
 	box-shadow: 2px 3px 4px rgba(0, 0, 0, .5);
 
@@ -134,7 +134,7 @@ article.left{
 
 .left img:hover{
 
-	border: 1px solid gray;
+	border: 1px solid LightGray ;
 
 	box-shadow: 2px 3px 4px rgba(0, 0, 0, .5);
 
@@ -158,9 +158,9 @@ article.left{
 
 	float: left;
 
-	width: 550px;
+	width: 780px;
 
-	border: 1px solid gray;
+	border: 1px solid LightGray ;
 
 	box-shadow: 2px 3px 4px rgba(0, 0, 0, .5);
 
