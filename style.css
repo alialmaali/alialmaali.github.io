@@ -322,13 +322,15 @@ th {
 
 	.body{
 
-		width: 1190px;
+        margin: 0;
+        height: 100%;
 
 	}
 
 	.footer{
 
-		width: 1200px;
+        margin: 0;
+        height: 100%;
 
 	}
 
