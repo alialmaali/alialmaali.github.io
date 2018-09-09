@@ -62,7 +62,10 @@
 
 	position: ;
 
- 
+    overflow: auto;
+   
+    min-height: 100%;
+
 
 }
 
