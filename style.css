@@ -4,6 +4,10 @@
     background-color: lightseagreen
 }
 
+.font{
+   color: white 
+}
+
 .navbar {
 
 	box-shadow: 2px 4px 8px rgba(0, 0, 0, .1);
@@ -130,7 +134,7 @@ article.left{
 
 .left img:hover{
 
-	border: 1px solid gray;
+	border: 1px solid lightseagreen;
 
 	box-shadow: 2px 3px 4px rgba(0, 0, 0, .5);
 
@@ -169,43 +173,6 @@ article.right{
 
 }
 
-
-
-
-
-.footer {
-
-	background-color: #2196f3 !important;
-
-	position: fixed;
-
-	bottom: 0px;
-
-	width:100%;
-
-}
-
-footer.page-footer .footer-copyright {
-
-	background-color: #2196f3 !important;
-
-	color: rgba(255,255,255,.6);
-
-	font-family: Roboto,sans-serif;
-
-	font-size: .9rem;
-
-	font-weight: 300;
-
-	overflow: hidden;
-
-	padding-bottom: 1rem !important;
-
-	padding-top: 1rem !important;
-
-	text-align: center !important;
-
-}
 
 
 
