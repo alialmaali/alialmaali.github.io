@@ -86,9 +86,6 @@
 	float: left;
 
 
-
-	box-shadow: 2px 3px 4px rgba(0, 0, 0, .5);
-
 }
 
 .left img{
@@ -163,9 +160,6 @@ article.left{
 
 	width: 550px;
 
-	border: 1px solid gray;
-
-	box-shadow: 2px 3px 4px rgba(0, 0, 0, .5);
 
 }
 
